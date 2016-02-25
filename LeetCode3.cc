@@ -8,7 +8,7 @@
 //  with the length of 1.
 //
 //  solution: 
-//  *use array to present a fake hashtable, store each char with index from its ascii  
+//  *use array to present a fake hashtable, store index of each encountering char in with array index from its ascii (0-127 for all characters).   
 //  loop through the string, 
 //  1) if the char doesn't exist in the substring, increment length and store its index in fake hashtable 
 //  2) if exists, 
